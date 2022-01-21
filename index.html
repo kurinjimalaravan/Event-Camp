@@ -1,31 +1,23 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-        <!-- Basic -->
         <meta charset="utf-8">
         <meta name="keywords" content="HTML5 Template" />
         <meta name="Description" CONTENT="All Events !!!"/>
         <meta name="author" content="themeforest.net/user/iwthemes/portfolio?ref=iwthemes">
-        <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Theme CSS -->
         <link href="css/main.css" rel="stylesheet" media="screen">
-        <!-- Favicon -->
         <link rel="shortcut icon" type="image/ico" href="img/icons/logo-bg.png"/>
-        <!-- Fontawesome -->
         <script defer src="js/fontawesome.js"></script>
+        <title>Event</title>
     </head>
 
     <body>
 
-        <!-- /.loader -->
         <div class="loader">
           <div class="loader__spinner"></div>
           <div class="loader__background"></div>
         </div>
-        <!-- /.loader -->
 
-        <!--Menu Expanded-->
           <div class="collapse mobile-menu" id="navbarToggleExternalContent">
             <div class="p-4">
               <ul class="menuSite">
@@ -37,9 +29,7 @@
             </ul>
             </div>
           </div>
-          <!--/Menu Expanded-->
 
-        <!--Menu Sticked-->
         <div class="nav-scroll menu-sticked d-none d-lg-block d-xl-block">
             <div class="container-fluid">
                 <div class="row">
@@ -63,9 +53,7 @@
                 </div>
             </div>
         </div>
-        <!--Menu Sticked-->
 
-        <!--Home Welcome-->
         <header class="home-welcome nbg" id="home">
           <video poster="video/video.jpg" autoplay muted="" loop="" class="hidden-xs hidden-sm"> <source src="video/video.webm" type="video/webm"></video>
 
@@ -95,14 +83,11 @@
                 <div class="container">
                   <div class="row justify-content-md-center">
                     <div class="col-lg-8">
-                        <!--Title-->
                         <h1 class="summary mb-5">Event Camp</h1>
-                        <!--Title-->
 
-                        <!--Where & When-->
                         <div class="place-home">
                             <span class="location">
-                                <i class="fas fa-map-marker-alt"></i> KEC, Perundurai
+                                <i class="fas fa-map-marker-alt"></i> KEC, Perundurai, Erode.
                             </span>
 
                             <time datetime="2020-07-01T08:00-08:00">
@@ -112,15 +97,11 @@
                                 </span>
                             </time>
                         </div>
-                        <!--Where & When-->
 
-                        <!--About-->
                         <h3 class="description">
                           The Big idea behind the entire Shindig...
                         </h3>
-                        <!--About-->
 
-                        <!--Menu-->
                         <div class="">
                             <ul class="menu-base d-none d-md-block">
                                 <li><a href="#about"><i class="fas fa-eject"></i> <p>About</p></a></li>
@@ -130,16 +111,13 @@
                             </ul>
                             <a class="down-arrow d-none d-md-block mt-5 scroll" href="#schedule"><i class="fas fa-angle-down"></i></a>
                         </div>
-                        <!--Menu-->
                       </div>
                     </div>
                 </div>
             </div>
             <div class="overlay"></div>
         </header>
-        <!--Home Welcome-->
 
-        <!--Register & More Description-->
         <section class="registerEvent" id="register">
             <div class="container-fluid">
                 <div class="row ">
@@ -147,27 +125,25 @@
                         <div class="register">
                             <h2><b>Register Here !!!</b></h2>
 
-                            <!--Form Register-->
                             <div class="form-register mt-5 bg-warning">
-                                <!--Form-->
-                                <form>
+                                <form action="register.php" method="post">
                                   <div class="row form-group">
                                         <div class="col-12">
                                             <input type="text" class="form-control" name="Name" id="Name" placeholder="Name *" required>
                                         </div>
-                                       
-                                        <div class="col-12 mt-3">
-                                            <input type="email" class="form-control email" name="email" id="email" placeholder="Email *" required>
-                                        </div>
                                         <div class="col-12">
                                           <input type="text" class="form-control" name="Rollno" id="Rollno" placeholder="Rollno *" required>
                                         </div>
+                                        <div class="col-12 mt-3">
+                                            <input type="email" class="form-control email" name="email" id="email" placeholder="Email *" required>
+                                        </div>
+                                       
                                         <div class="col-12">
-                                          <input type="text" class="form-control" name="EventName" id="Event" placeholder="Event Name *" required>
+                                          <input type="text" class="form-control" name="EventName" id="Event" placeholder="EventName *" required>
                                       </div>
                                         
                                       <div class="col-12">
-                                              <input type="text" class="form-control" name="PHONE NUMBER" placeholder="Phone Number *" required>
+                                              <input type="text" class="form-control" name="PhoneNumber" placeholder="PhoneNumber *" required>
                                       </div>
                                     </div>  
 
@@ -177,88 +153,76 @@
                                         </div>
                                     </div>
                                 </form>
-                                <!--Form-->
                             </div>
-                            <!--Form Register-->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--Register & More Description-->
-
-        <!--Schedule-->
-        <section class="schedule" id="trips">
+      
+        <section class="schedule" id="about">
           <div class="galleryList mt-3 mb-5">
-            <!--Item-->
+
+            <figure class="image-gallery">
+                <img src="img/speakers/speaker-1.jpg" alt="trip">
+                <div class="overlay-hover"></div>
+                <figcaption class="overlay-info">
+                  <div class="data-name">
+                      <h3>E-HORYZON '22</h3>
+                      <p>Session: Grand Finale</p>
+                  </div>
+                  <div class="overlay-description">
+                    <p>It showing the best of them would usually come at the end of the season. </p>
+                  </div>
+                </figcaption>
+          </figure>
             <figure class="image-gallery">
                   <img src="img/speakers/speaker-3.jpg" width="700px" alt="trip">
                   <div class="overlay-hover"></div>
                   <figcaption class="overlay-info">
                     <div class="data-name">
-                        <h3>B. Archiller</h3>
-                        <p>Session: Not Just Another <br />Typical WordPress Site</p>
+                        <h3>Dr.R.PARAMESHWARAN President, IIC, KEC</h3>
+                        <p>Session:Orientation towards  <br />NEP, IIC and KISP</p>
                     </div>
                     <div class="overlay-description">
                       <p>He's currently working as a Web Developer / Software Engineer in a company in Ortigas, and previously worked as a Web Developer.</p>
                     </div>
                   </figcaption>
             </figure>
-            <!--Item-->
 
-            <!--Item-->
             <figure class="image-gallery">
                   <img src="img/speakers/speaker-2.jpg" alt="trip">
                   <div class="overlay-hover"></div>
                   <figcaption class="overlay-info">
                       <div class="data-name">
-                          <h3>A. Arguero</h3>
-                          <p>Session: Google on Website Security and Manual Actions</p>
+                          <h3>Mr. V.Sathyamoorthy, KEC Alumnus, Unacadamy Education</h3>
+                          <p>Session: Awareness on Gate Exam </p>
                       </div>
                       <div class="overlay-description">
-                        <p>Cherry Prommawin is a Search Quality Analyst at Google Asia Pacific, ensuring good quality of organic search results. </p>
+                        <p>GATE secures future by enabling students for number of jobs in Research Centers, Universities and other technical fields. Keeping its results aside, the mere preparation of this exam helps students in preparing for Indian Engineering Services.</p>
                       </div>
                   </figcaption>
             </figure>
-            <!--Item-->
 
-            <!--Item-->
             <figure class="image-gallery">
                   <img src="img/speakers/speaker-4.jpg" alt="trip">
                   <div class="overlay-hover"></div>
                   <figcaption class="overlay-info">
                     <div class="data-name">
-                        <h3>C. Balanta</h3>
-                        <p>Session: Breaking News,<br /> Fake News</p>
+                        <h3>Women development Club</h3>
+                        <p>Session: Fun Hub, Olympiv Meme Mela</p>
                     </div>
                     <div class="overlay-description">
-                      <p>Tonyo is a blogger, opinion columnist, social media strategist and advocate. His blog is a winner in the Philippine Blog Awards.</p>
+                      <p>Women can compete in softball, karate, sport climbing, surfing, and skateboarding. The new sports climbing events - speed climbing, bouldering, and lead climbing - all had men's and women's categories. Several sports, such as swimming, introduced mixed events.</p>
                     </div>
                   </figcaption>
             </figure>
-            <!--Item-->
 
-            <!--Item-->
-            <figure class="image-gallery">
-                  <img src="img/speakers/speaker-1.jpg" alt="trip">
-                  <div class="overlay-hover"></div>
-                  <figcaption class="overlay-info">
-                    <div class="data-name">
-                        <h3>C. Rkndon</h3>
-                        <p>Session: Importance of Turning WordPress Plugins</p>
-                    </div>
-                    <div class="overlay-description">
-                      <p>She's a software developer at Inspire Team, and has been in the industry for 4 years, specialized in WordPress customization.</p>
-                    </div>
-                  </figcaption>
-            </figure>
-            <!--Item-->
+           
 
           </div>
         </section>
-        <!--Schedule-->
 
-        <!--Sponsors-->
         <section class="whoHelpus">
             <div class="container">
                 <div class="row">
@@ -283,18 +247,17 @@
             </div>
         </section>
 
-        <div class="newsletter">
+        <div class="newsletter" id="event">
                                 <h1><b>Join Our Events</b></h1>
-                                <h3>Exclusive events, priceless memories.</h3>
-                                <button type="button">Quiz!</button>
-                                <button type="button">Web/App!</button>
-                                <button type="button">Technical!</button>
-                                <button type="button">Project!</button>
+                                <h3>Exclusive Events, Priceless Memories.</h3>
+                                <button type="button"><a href="#register">Quiz!</a></button>
+                                <button type="button"><a href="#register">Web/App!</a></button>
+                                <button type="button"><a href="#register">Technical!</a></button>
+                                <button type="button"><a href="#register">Project!</a></button>
         </div>
-                    <!--Tabs Content-->
-                    <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="tab-dayone" role="tabpanel">
-                          <!--Cup Schedule-->
+
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active">
                           <div class="row">
                             <div class="col-12">
                               <table class="table-striped table-responsive table-hover cup-schedule mt-5">
@@ -310,53 +273,67 @@
 
                                 <tbody>
                                   <tr>
-                                   <td>03/01/2022</td>
+                                   <td>03/09/2021</td>
                                    <td>09:45 AM</td>
-                                    <td>Workshop</td>
-                                    <td>Abc</td>
+                                    <td>Association Inaugural Function &amp; Special Lecture - “ Data Analysis and
+                                        Data Reporting ”</td>
+                                    <td>Mr.M.Arumugam <br>9842778152<br />Mrs. C.Jamunadevi<br />9952650001</td>
                                   </tr>
                                   <tr>
-                                    <td>04/01/2022</td>
-                                    <td>09:45 AM</td>
-                                    <td>Quiz</td>
-                                    <td>Abc</td>
+                                    <td>18/09/2021</td>
+                                    <td>09:00 AM</td>
+                                    <td>Guest Lecture on "IoT and its Industrial Applications"</td>
+                                    <td>Mrs.P.Ananthi<br>9942288556<br>Dr.G.R.Sreekanth<br>9952574455</td>
                                   </tr>
                                   <tr>
-                                    <td>05/01/2022</td>
+                                    <td>09/10/2021</td>
                                     <td>10.00 AM</td>
-                                    <td>Team Management</td>
-                                    <td>Abc</td>
+                                    <td>Guest Lecture on “Trends in Edge Computing ”</td>
+                                    <td>Mrs.S.Deepa<br> 9600421666<br>Mrs.M.Mangayarkarasi<br>9865205556</td>
                                   </tr>
                                   <tr>
-                                    <td>06/01/2022</td>
-                                    <td>10:45 AM</td>
-                                    <td>Web Development</td>
-                                    <td>Abc</td>
+                                    <td>23/10/2021</td>
+                                    <td>10:00 AM</td>
+                                    <td>Guest Lecture on “Data science ”</td>
+                                    <td>Mr.M.Arumugam <br>9842778152<br />Mrs. C.Jamunadevi<br />9952650001</td>
                                   </tr>
                                   <tr>
-                                    <td>03/01/2022</td>
+                                    <td>06/11/2001</td>
                                     <td>01:45 PM</td>
-                                     <td>Workshop</td>
-                                     <td>Abc</td>
-                                   </tr>
+                                     <td>One day Intra Department Technical Symposium</td>
+                                     <td>Mrs.P.Ananthi<br>9942288556<br>Dr.G.R.Sreekanth<br>9952574455</td>
+                                    </tr>
                                    <tr>
-                                     <td>04/01/2022</td>
+                                     <td>11/12/2021</td>
                                      <td>01:45 PM</td>
-                                     <td>Quiz</td>
-                                     <td>Abc</td>
-                                   </tr>
+                                     <td>Guest Lecture on “Prospects of Higher Education”</td>
+                                     <td>Mrs.S.Deepa<br>9600421666<br>Mrs.M.Mangayarkarasi<br>9865205556</td>
+                                    </tr>
                                    <tr>
-                                     <td>05/01/2022</td>
+                                     <td>08/01/2022</td>
                                      <td>01.45 PM</td>
-                                     <td>Team Management</td>
-                                     <td>Abc</td>
-                                   </tr>
+                                     <td>“MeSCia 2021” - One Day Inter Collegiate Meet National Level Technical
+                                        Symposium</td>
+                                     <td>Dr.G.R.Sreekanth<br>9952574455<br />Mrs. C.Jamunadevi<br />9952650001</td>
+                                    </tr>
                                    <tr>
-                                     <td>06/01/2022</td>
+                                     <td>29/01/2022</td>
                                      <td>01:45 PM</td>
-                                     <td>Web Development</td>
-                                     <td>Abc</td>
-                                   </tr>
+                                     <td>Guest Lecture on “Trends in Block Chain and Crypto currency&quot;</td>
+                                     <td>Mrs. C.Jamunadevi<br />9952650001<br>Dr.G.R.Sreekanth<br>9952574455</td>
+                                    </tr>
+                                    <tr>
+                                    <td>05/02/2022</td>
+                                    <td>10.00 AM</td>
+                                    <td>“One Day Hackathon” Based on a Specific Programming Language ”</td>
+                                    <td>Mrs.S.Deepa<br> 9600421666<br>Mrs.M.Mangayarkarasi<br>9865205556</td>
+                                  </tr>
+                                  <tr>
+                                    <td>05/03/2022</td>
+                                    <td>10:00 AM</td>
+                                    <td>Association Valedictory Function&amp; Special Lecture</td>
+                                    <td>Mrs.M.Mangayarkarasi<br>9865205556<br />Mrs. C.Jamunadevi<br />9952650001</td>
+                                  </tr>
                             </tbody>
                             </table>
                           </div>
@@ -364,79 +341,26 @@
                       
                     </div>
                 </div>
-                <!--Tabs Content-->
         </section>
-        <!--Schedule Program-->
-
-        <!--Instagram Api-->
-        <div id="instafeed"></div>
-        <!--Instagram Api-->
-
-        <!--Faq-->
-        <section class="faq">
-            <div class="container-fluid">
-                <h2 class="text-center">Faq's Questions</h2>
-
-                <!--First Part Faqs-->
-                <div class="row">
-                    <div class="col-xl-4">
-                        <div class="faq-item">
-                            <h5>What is Sign In Verification?</h5>
-                            <p>At Envato, we take our users’ account security very seriously. One of the ways we protect your account is through “Sign In verification”, a feature to make sure that the person who signs in to your account really is you.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h5>What do I do if I've forgotten my username or password</h5>
-                            <p>Below the login input fields there are two links — 'Forgot Your Password?' and 'Forgot Your Username?'. Click the appropriate link to send a message to your account email address.</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="faq-item">
-                            <h5>Staying Safe &amp; Vigilant Against Phishing &amp; Scams</h5>
-                            <p>It is important to protect your Envato account from unauthorised access.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h5>What do I do if I've forgotten my username or password</h5>
-                            <p>Below the login input fields there are two links — 'Forgot Your Password?' and 'Forgot Your Username?'. Click the appropriate link to send a message to your account email address.</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="faq-item">
-                            <h5>What is Sign In Verification?</h5>
-                            <p>At Envato, we take our users’ account security very seriously. One of the ways we protect your account is through “Sign In verification”, a feature to make sure that the person who signs in to your account really is you.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h5>What do I do if I've forgotten my username or password</h5>
-                            <p>Below the login input fields there are two links — 'Forgot Your Password?' and 'Forgot Your Username?'. Click the appropriate link to send a message to your account email address.</p>
-                        </div>
-                    </div>
+        <br><br><br>                                    
+        <section class="live-banner text-center" id="login">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    
+                    <form action="signup.php" method="post" class="form-control bg-warning"> 
+                    <h2><b>Login !</b></h2>
+                    <input type="text"  class="form-control " placeholder="Userid *" name="Userid"  required>
+                    <input type="password" class="form-control" placeholder="Password *" name="Password"  required>
+                    <div class="text-center m-3">
+                    <input type="submit" value=" LOGIN "/>
+                    <b><a href="signup.html">Signup</a></b>
+                    </form>
                 </div>
-                <!--First Part Faqs-->
-
-            </div>
+        </div>
         </section>
-        <!--Faq-->
-
-        <!--Video-->
-        <section class="live-banner text-center">
-          <video poster="video/video.jpg" autoplay muted="" loop="" class="hidden-xs hidden-sm"> <source src="video/video.webm" type="video/webm"></video>
-
-            <div class="overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2>You missed any transmission?</h2>
-                            <p>This is an example with <em>Background Video.</em> We show a link with last videos transmitted or you can use for your needing.</p>
-                            <span class="mt-4">SATURDAY - 14:00 PM</span>
-                            <a href="https://www.youtube.com/channel/UCEb3nAep6tYiAkZpqi0Kzew" class="follow-youtube btn mt-4 light"><i class="fab fa-youtube"></i> Follow us on Youtube</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Video-->
 
         
-        <!--Contact-->
         <section class="contactInfo" id="contact">
             <div class="row">
                 <div class="col-lg-4 p-0">
@@ -445,7 +369,6 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-5 data-contact">
-                                <!--Item-->
                                 <div>
                                     <div class="items-contact">
                                         <i class="fa fa-phone"></i>
@@ -454,9 +377,7 @@
                                             <p><a href="tel:#">04294-226555,226666</a></p>
                                         </div>
                                     </div>
-                                    <!--Item-->
 
-                                    <!--Item-->
                                     <div class="items-contact">
                                         <i class="fa fa-envelope"></i>
                                         <div class="aboutContact">
@@ -464,9 +385,7 @@
                                             <p><a href="mailto:kecevent@kongu.edu">kecevent@kongu.edu</a></p>
                                         </div>
                                     </div>
-                                    <!--Item-->
 
-                                    <!--Item-->
                                     <div class="items-contact">
                                         <i class="fas fa-paperclip"></i>
                                         <div class="aboutContact">
@@ -474,9 +393,7 @@
                                             <p><a href="https://www.kongu.ac.in">kongu.ac.in</a></p>
                                         </div>
                                     </div>
-                                    <!--Item-->
 
-                                    <!--Item-->
                                     <div class="items-contact">
                                         <i class="fa fa-home"></i>
                                         <div class="aboutContact">
@@ -486,7 +403,6 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <!--Item-->
                                 </div>
                             </div>
                             
@@ -495,22 +411,18 @@
                 </div>
             </div>
         </section>
-        <!--Contact-->
 
-        <!--Twitter Api-->
         <div class="twitterApi">
             <div class="row">
                 <div class="col">
                     <div class="twitterContent">
-                        <i class="fab fa-twitter"></i>
+                        <i class="fas fa-elementor"></i>
                         <div class="twitter"></div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--Twitter Api-->
 
-        <!--Footer-->
         <footer>
             <div class="container">
                 <div class="row">
@@ -521,30 +433,17 @@
                 </div>
             </div>
         </footer>
-        <!--Footer-->
 
 
-    <!-- ======================= JQuery libs =========================== -->
-    <!-- jQuery local-->
     <script src="js/jquery.js"></script>
-    <!-- popper.js-->
     <script src="js/popper.min.js"></script>
-    <!-- Counter-->
     <script src="js/counter/jquery.countdown.js"></script>
-    <!-- bootstrap.min.js-->
     <script src="js/bootstrap.min.js"></script>
-    <!-- newsticker.js-->
     <script src="js/slick.min.js"></script>
-    <!-- Instagram-->
     <script src="js/api-instagram.js"></script>
-    <!-- Twitter Feed-->
     <script src="js/twitter/jquery.tweet.js"></script>
-    <!-- To Top-->
     <script src="js/toTop.js"></script>
-    <!-- theme-main.js-->
     <script src="js/theme-main.js"></script>
-    <!-- ======================= End JQuery libs =========================== -->
  </body>
 
-<!-- Mirrored from html.iwthemes.com/allEvents/Conference/index-video.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Jan 2022 04:11:36 GMT -->
 </html>

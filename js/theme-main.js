@@ -170,6 +170,6 @@ $(document).ready(function($) {
         modpath: 'js/twitter/index.php',
         username: "tomorrowland",
         count: 5,
-        loading_text: "Loading tweets...",
+        loading_text: "Bring Your Ideas and Thoughts..",
       });
 });
